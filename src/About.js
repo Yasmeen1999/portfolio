@@ -1,0 +1,47 @@
+import React from "react";
+import css from "./About.module.css";
+
+function About() {
+  return (
+    <div className={css.wrapper}>
+      <div className={css.about}>
+        <h1 className={css.h1}>
+          {" "}
+          <i>Front-end developer !</i>{" "}
+        </h1>
+
+        <p className={css.p}>
+          {" "}
+          <i>
+            I am currently a final year student at Ghousia College Of
+            Engineering Electronics and Communication field and pursuing my B.E
+            from here.
+          </i>{" "}
+        </p>
+
+        <h2 className={css.h2}>
+          <i>I love to cook :)</i>
+        </h2>
+
+        <p className={css.p}>
+          <i>
+            {" "}
+            I'm a home chef. I just love to cook and eat the different type of
+            cuisine and in my free time i used to draw mehendi and i like to do
+            sketching.
+          </i>
+        </p>
+
+        <h2 className={css.h2}>
+          <i> Also i love to help others. </i>
+        </h2>
+
+        <a href='../index.html'>
+          {" "}
+          <button className={css.button}>BACK </button>{" "}
+        </a>
+      </div>
+    </div>
+  );
+}
+export default About;

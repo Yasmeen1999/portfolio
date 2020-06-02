@@ -1,0 +1,72 @@
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  max-height: 960px;
+  margin: 0 auto;
+}
+
+.about {
+  margin: auto;
+  padding: 70px;
+  width: 100%;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+  text-align-last: center;
+  text-align: justify;
+  background: linear-gradient(115deg, #5b3c72 0%, #1488a5 100%);
+}
+
+.button {
+  margin: 20px;
+  width: 80px;
+  height: 5vh;
+  color: white;
+  font-size: 13px;
+  font-family: "kalam", cursive;
+  background-color: rgba(103, 250, 255, 0.29);
+  border-radius: 20px;
+  border: 1px solid rgba(103, 250, 255, 0.29);
+}
+.about h1 {
+  font-size: 35px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.about h2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.about p {
+  font-size: 20px;
+}
+.button:hover {
+  opacity: 1;
+  box-shadow: 0 10px 50px;
+}
+
+@media (min-width: 960px) {
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .about {
+    border-radius: 2%;
+  }
+  .button {
+    margin: 20px;
+    width: 10%;
+    height: 5vh;
+    color: white;
+    font-family: "kalam", cursive;
+    background-color: rgba(103, 250, 255, 0.29);
+    border-radius: 20px;
+    border: 1px solid rgba(103, 250, 255, 0.29);
+  }
+  .button:hover {
+    opacity: 1;
+    box-shadow: 0 10px 50px rgba(103, 250, 255, 0.29);
+  }
+}
