@@ -3,6 +3,8 @@ import css from "./Home.module.css";
 import { Link, Route } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
+import Resume from './resume';
+
 
 function Home() {
   return (
@@ -85,6 +87,8 @@ export default function App() {
       <Route path='/' exact component={Home} />
       <Route path='/about' component={About} />
       <Route path='/skills' component={Skills} />
+      <Route path='/resume' component={Resume} />
+
     </switch>
   );
 }
