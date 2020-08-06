@@ -42,7 +42,7 @@ class Skills extends Component {
             <i>
               <li>Github</li>
               <li>Sublime</li>
-              <li>Visual Studio Code</li>
+              <li>VS Code</li>
             </i>
           </ul>
 
