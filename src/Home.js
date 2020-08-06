@@ -3,8 +3,7 @@ import css from "./Home.module.css";
 import { Link, Route } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
-import Resume from './resume';
-
+import resume from "../src/yasmeenResume.pdf";
 
 function Home() {
   return (
@@ -14,13 +13,23 @@ function Home() {
           <nav>
             <ul>
               <li>
-                <Link to='/about'>About</Link>
+                <Link to='/about'>
+                  <i>About</i>{" "}
+                </Link>
               </li>
               <li>
-                <Link to='/skills'>Skills</Link>
+                <Link to='/skills'>
+                  <i>Skills</i>
+                </Link>
               </li>
               <li>
-                <Link to='/resume'>Resume</Link>
+                <Link
+                  onClick={(event) => {
+                    event.preventDefault();
+                    window.open(resume);
+                  }}>
+                  Resume
+                </Link>
               </li>
             </ul>
           </nav>
@@ -87,8 +96,6 @@ export default function App() {
       <Route path='/' exact component={Home} />
       <Route path='/about' component={About} />
       <Route path='/skills' component={Skills} />
-      <Route path='/resume' component={Resume} />
-
     </switch>
   );
 }

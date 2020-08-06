@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import css from "./Skills.module.css";
 
 class Skills extends Component {
-   handleBack = () => {
-      this.props.history.push("/");
-    };
+  handleBack = () => {
+    this.props.history.push("/");
+  };
   render() {
     return (
       <div>
@@ -39,20 +39,18 @@ class Skills extends Component {
             <i>Tools </i>
           </h2>
           <ul>
-            <li>
-              <i>Github </i>
-            </li>
-            <li>
-              <i>Sublime </i>
-            </li>
-            <li>
-              <i>Visual Studio Code</i>
-            </li>
+            <i>
+              <li>Github</li>
+              <li>Sublime</li>
+              <li>Visual Studio Code</li>
+            </i>
           </ul>
 
           <div className='css.lastbtn'>
             {" "}
-            <button onClick={this.handleBack} className={css.button}>BACK </button>
+            <button onClick={this.handleBack} className={css.button}>
+              BACK{" "}
+            </button>
           </div>
         </div>
       </div>

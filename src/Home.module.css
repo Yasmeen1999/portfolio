@@ -53,8 +53,10 @@ nav li {
 nav li a {
   color: white;
   font-weight: 700;
+  font-size: 25px;
   opacity: 0.6;
   text-decoration: none;
+  text-transform: none;
   transition: 0.3s;
 }
 nav li a:hover {
