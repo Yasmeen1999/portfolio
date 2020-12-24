@@ -6,9 +6,8 @@
 
 .about {
   margin: auto;
-  padding: 70px;
+  padding: 70px; 
   width: 100wh;
-  /* height: 100vh; */
   z-index: -1;
   line-height: 1.5;
   color: white;
@@ -31,11 +30,11 @@
 }
 .about h1 {
   font-size: 35px;
-  padding-bottom: 20px;
+  padding-bottom:20px;
   font-weight: bold;
 }
 .about h2 {
-  font-size: 28px;
+  font-size: 27px;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -46,6 +45,13 @@
   opacity: 1;
   box-shadow: 0 10px 50px;
 }
+@media (min-width:425px){
+  .about{
+    height: 100vh;
+    padding: 45px; 
+  }
+
+} 
 
 @media (min-width: 960px) {
 .about{

@@ -9,35 +9,34 @@ class About extends Component {
     return (
       <div className={css.about}>
         <h1 className={css.h1}>
-          <i>Front-end developer !</i>
+          Front-end developer !
         </h1>
 
         <p className={css.p}>
-          <i>
-            I am currently a final year student at Ghousia College Of
-            Engineering <br />
-            Electronics and Communication field and pursuing my B.E from here.
-          </i>
+          
+            I have a Bachelor’s Degree in  Electronics and Communication; <br />
+            but everything I know of and on the Web today is my passion
+          
         </p>
 
         <h2 className={css.h2}>
-          <i>I love to cook :)</i>
+          I love to cook :)
         </h2>
 
         <p className={css.p}>
-          <i>
+          
             I'm a home chef. I just love to cook and eat the different type of
             cuisine <br /> and in my free time i used to draw mehendi and i like
             to do sketching.
-          </i>
+          
         </p>
 
         <h2 className={css.h2}>
-          <i> Also i love to help others. </i>
+           Also i love to help others.
         </h2>
 
         <button onClick={this.handleBack} className={css.button}>
-          BACK{" "}
+          BACK
         </button>
       </div>
     );

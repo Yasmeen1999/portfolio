@@ -10,44 +10,48 @@ class Skills extends Component {
       <div>
         <div className={css.skills}>
           <h1 className={css.h1}>
-            {" "}
-            <i> SOME OF MY SKILLS! </i>
+           
+            SOME OF MY SKILLS! 
           </h1>
 
           <h2 className={css.h2}>
-            {" "}
-            <i> Development </i>
+           
+             Development 
           </h2>
           <ul>
             <li>
-              {" "}
-              <i>HTML5</i>
+              HTML5
             </li>
             <li>
-              <i> CSS3 </i>
+               CSS3 
             </li>
             <li>
-              <i> JAVASCRIPT</i>
+               JAVASCRIPT
             </li>
             <li>
-              {" "}
-              <i>REACT JS</i>{" "}
+              REACT JS
+            </li>
+            <li>
+              NEXT JS
             </li>
           </ul>
           <h2 className={css.h2}>
-            {" "}
-            <i>Tools </i>
+            
+            Tools 
           </h2>
           <ul>
-            <i>
+              <li>Git</li>
               <li>Github</li>
-              <li>Sublime</li>
+             
               <li>VS Code</li>
-            </i>
+              <li>Sublime</li>
+              <li>JIRA</li>
+             
+             
           </ul>
 
           <div className='css.lastbtn'>
-            {" "}
+        
             <button onClick={this.handleBack} className={css.button}>
               BACK{" "}
             </button>

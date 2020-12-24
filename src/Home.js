@@ -3,7 +3,7 @@ import css from "./Home.module.css";
 import { Link, Route } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
-import resume from "../src/yasmeenResume.pdf";
+import resume from "../src/YasmeenResume.pdf";
 
 function Home() {
   return (
@@ -14,12 +14,12 @@ function Home() {
             <ul>
               <li>
                 <Link to='/about'>
-                  <i>About</i>{" "}
+                  About
                 </Link>
               </li>
               <li>
                 <Link to='/skills'>
-                  <i>Skills</i>
+                 Skills
                 </Link>
               </li>
               <li>
@@ -37,22 +37,20 @@ function Home() {
         <div className={css.content}>
           <div className={css.hero}>
             <h1>
-              {" "}
-              <i>Hi! My name is yasmeen </i>
+           
+              Hi! My name is yasmeen 
             </h1>
             <img src='image.jpg' alt='profileimg' />
             <div className={css.herocontent}>
               <h2 className='css.h2'>
-                <i> A little about me </i>{" "}
+                A little about me 
               </h2>
               <p className='css.p'>
-                {" "}
-                <i>
-                  {" "}
+                
                   I am a Frontend Developer. My passion drives me to the field
                   of web development technology. Also i love to share my
                   knowledge with others.
-                </i>
+              
               </p>
             </div>
           </div>
