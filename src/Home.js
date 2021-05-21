@@ -3,7 +3,7 @@ import css from "./Home.module.css";
 import { Link, Route } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
-import resume from "../src/yasmeenResume.pdf";
+import resume from "../src/yasmeen.pdf";
 
 function Home() {
   return (
