@@ -26,6 +26,7 @@ function Home() {
                   }}>
                   Resume
                 </Link> */}
+                <Link to="/"> Resume</Link>
               </li>
             </ul>
           </nav>
